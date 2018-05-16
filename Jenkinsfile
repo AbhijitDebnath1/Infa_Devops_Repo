@@ -1,6 +1,6 @@
 env.dockerimagename="devopsinfacts/devops_repo:buildon"
 node {
-   stage ('Build') {
+   stage ('Code Checkout') {
    //If some other Repository is to be given apart from current repo, provide git URL as below demo...
     checkout scm
   }   
