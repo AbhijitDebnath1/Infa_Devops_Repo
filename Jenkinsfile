@@ -4,7 +4,7 @@ node {
    //If some other Repository is to be given apart from current repo, provide git URL as below demo...
     checkout scm
   }   
-   stage ('Infomatica Deployment') {
+   stage ('Informatica Deployment') {
 	sh '/var/jenkins/informaticaDeployment.sh $commitID'
 	}
 
